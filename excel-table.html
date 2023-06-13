@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+          <style>
+                    table {
+                              border-collapse: collapse;
+                              display: block;
+                              width: max-content;
+                              table-layout: fixed;
+                              
+                    }
+                    td{
+                              border-color: rgb(171, 171, 171) !important;
+                              white-space: pre-wrap;
+                             
+                    }
+                    .rw1{
+                              vertical-align: middle;
+                              text-align: center;
+                              width: 30px;
+                              min-width: 30px;
+                              max-width: 30px;
+                              border: 1px solid;
+                              position: relative;
+                    }
+                    .td1{
+                              border: 1px solid;
+                              width: 150px;
+                              min-width: 150px;
+                              height: 20px;
+                              margin: 0px;
+                              vertical-align: top;
+                              text-align: center;
+                    }
+                    .td2{
+                              border: 1px solid;
+                              height: 30px;
+                              min-height: 30px;
+                              margin: 0px;
+                              vertical-align: top;
+                              padding: 4px;
+                    }
+                    select{
+                              width: 95%;
+                              border: none;
+                              text-align: center;
+                              font-size: 16px;
+                             
+                    }
+                    .dd{
+                              float: right;
+                              background-color: rgb(255, 255, 255);
+                              width: 4px;
+                              height: 100%;
+                              cursor: col-resize;
+                    }
+                    .rr{
+                              position:absolute;
+                              bottom: 0;
+                              background-color: rgb(255, 255, 255);
+                              height: 4px;
+                              width: 95%;
+                              cursor: row-resize;
+                    }
+                    .con{
+                              position: fixed;
+                              bottom: 0;
+                              top: 100px;
+                              width: 99.5%;
+                              overflow: auto;
+                    }
+          </style>
+</head>
+<body id="bd" style="overflow-x: auto;">
+          <div class="con">
+                    <table id="tablo">
+                              <tr>
+                                        <td></td>
+                                        <td id="c1" class="td1">A<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">B<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">C<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">D<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">E<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">F<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">G<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">H<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">I<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">J<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">K<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">L<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">M<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">N<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">O<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">P<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">Q<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">R<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">S<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">T<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">U<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">V<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">W<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">X<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">Y<div id="rsc" class="dd"></div></td>
+                                        <td id="c2" class="td1">Z<div id="rsc" class="dd"></div></td>
+                              </tr>
+                              <tr>
+                                        <td class="rw1">1<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">2<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">3<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">4<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">5<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">6<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">7<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">8<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">9<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">10<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">11<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">12<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">13<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">14<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">15<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">16<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">17<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">18<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">19<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">20<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">21<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">22<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">23<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">24<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                              <tr>
+                                        <td class="rw1">25<div id="rsr" class="rr"></div></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        <td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td>
+                                        
+                              </tr>
+                    
+                    </table>
+          </div>
+
+          <script>
+                    var bd = document.getElementById('bd');                    
+
+                    var cells = document.querySelectorAll('.td2');
+
+                    cells.forEach(function(cell) {
+                              cell.contentEditable = true;
+                    });
+
+                    //===============================================================================================
+
+                    
+                    // Allows for changing column widths
+                    // Sütun genişliklerinin değiştirilmesine izin verir
+
+                    var divs = document.querySelectorAll('#rsc');
+                    var cll;
+                    var mouseX = 0;
+                    var mouseY = 0;
+                    var set = 0;
+
+                    for (var i = 0; i < divs.length; i++) {
+                              divs[i].addEventListener('mousedown', function(event) {
+                                        bd.style.cursor = "col-resize";
+
+                                        cll = this.parentNode;
+                                        var initialWidth = this.parentNode.offsetWidth; 
+                                        var initialX = mouseX; 
+
+                                        document.addEventListener('mousemove', cc); 
+
+                                        document.addEventListener('mouseup', function() {
+                                                  document.removeEventListener('mousemove', cc); 
+                                                  bd.style.cursor = "auto";
+                                        });
+
+                                        function cc(){
+                                                  var diff = mouseX - initialX; 
+                                                  var newWidth = initialWidth + diff;
+                                                  
+                                                  if (newWidth > 0) {
+                                                            cll.style.width = newWidth + "px";
+                                                  }  
+                                        }
+                              });
+                    }
+
+                    //===============================================================================================
+
+                    // Allows for changing row heights
+                    // Satır yüksekliklerini değiştirmeyi sağlar
+
+                    var divsY = document.querySelectorAll('#rsr');
+                    var cll2;
+                    var set2 = 0;
+
+                    for (var i = 0; i < divsY.length; i++) {
+                              divsY[i].addEventListener('mousedown', function(event) {
+                                        bd.style.cursor = "row-resize";
+
+                                        cll2 = this.parentNode;
+                                        var initialHeight = this.parentNode.offsetHeight; 
+                                        var initialY = mouseY; 
+
+                                        document.addEventListener('mousemove', rr); 
+
+                                        document.addEventListener('mouseup', function() {
+                                                  document.removeEventListener('mousemove', rr); 
+                                                  bd.style.cursor = "auto";
+                                        });
+
+                                        function rr(){
+                                                  var diff2 = mouseY - initialY; 
+                                                  var newWidth2 = initialHeight + diff2;
+                                                  
+                                                  if (newWidth2 > 0) {
+                                                            cll2.style.height = newWidth2 + "px";
+                                                  }  
+                                        }
+                              });
+                    }
+
+                    //===============================================================================================
+
+                    // The mouse position value is transferred to variables through mouse movement.
+                    // Fare konumu değeri, fare hareketiyle birlikte değişkenlere aktarılır.
+
+                    document.addEventListener('mousemove', function(event) {
+                              mouseX = event.clientX;
+                              mouseY = event.clientY;
+                    });
+
+
+          </script>
+</body>
+</html>
